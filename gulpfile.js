@@ -33,17 +33,6 @@ function scripts() {
         .pipe(browserSync.stream())
 }
 
-// function build() {
-//     return src([
-//         'app/css/**/*.css',
-//         'app/js/main.min.js',
-//         'app/*.html'
-//     ], { base: 'app' })
-
-//         .pipe(dest('dist'))
-// }
-
-
 function browsersync() {
     browserSync.init({
         server: {
