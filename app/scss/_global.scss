@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    font-style: normal;
+    letter-spacing: normal;
+    color: $dark-800;
+    background-color: $light;
+    font-family: 'Quicksand-Medium', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.icon {
+    fill: currentColor;
+}
+
+.logo {
+    outline-offset: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, outline 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:focus {
+        outline: 1px solid $accent;
+    }
+
+    &:active {
+        transform: scale(0.9, 0.9);
+    }
+}

@@ -4,12 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <title>
+        Marcho — a stylish clothing store
+    </title>
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
+<header class="header">
+    <div class="container">
+        <nav class="menu">
+            <a class="logo" href="#">
+                <img class="logo__img" src="./images/logo.svg" alt="Marcho online store logo" width="183" height="31">
+            </a>
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link current" href="#">
+                        Home
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">
+                        Shop
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">
+                        Page
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">
+                        Blog
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <ul class="user-menu">
+                <li class="user-menu__item">
+                    <a class="user-menu__link" href="#">
+                        <svg class="icon" width="20" height="20">
+                            <use href="./images/sprite.svg#user"></use>
+                        </svg>
+                        <span class="visually-hidden">
+                            Navigate to the user profile
+                        </span>
+                    </a>
+                </li>
+                <li class="user-menu__item">
+                    <a class="user-menu__link" href="#">
+                        <svg class="icon" width="20" height="20">
+                            <use href="./images/sprite.svg#search"></use>
+                        </svg>
+                        <span class="visually-hidden">
+                            Search for products on the site
+                        </span>
+                    </a>
+                </li>
+                <li class="user-menu__item">
+                    <a class="user-menu__link" href="#">
+                        <svg class="icon" width="20" height="20">
+                            <use href="./images/sprite.svg#heart"></use>
+                        </svg>
+                        <span class="user-menu__number">
+                            3
+                        </span>
+                        <span class="visually-hidden">
+                            Selected products
+                        </span>
+                    </a>
+                </li>
+                <li class="user-menu__item">
+                    <a class="user-menu__link" href="#">
+                        <svg class="icon" width="22" height="20">
+                            <use href="./images/sprite.svg#cart"></use>
+                        </svg>
+                        <span class="user-menu__number">
+                            7
+                        </span>
+                        <span class="visually-hidden">
+                            Products in the cart
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 <body>
-    <script src="js/main.min.js"></script>
+    <script src="./js/main.min.js"></script>
 </body>
 
 </html>
